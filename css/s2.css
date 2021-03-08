@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans+Condensed:wght@300&display=swap');
+
+h1, h2, h3, a{
+    font-family: Lato;
+}
+ p, li{
+     font-family: open sans condensed;
+ }
+div img{
+    width: 800px;
+    height: 100px;
+}
