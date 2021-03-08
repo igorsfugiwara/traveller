@@ -42,7 +42,39 @@ h1, h2, h3, a{
 }
  p, li{
      font-family: open sans condensed;
+     
  }
 div img{
-    height: 250px;
-    width: auto;
+    margin:40px;
+    height: auto;
+    width: 400px;
+}
+
+h1{
+    margin: 30px 0 25px 40px;
+}
+h2{
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.hot{
+    display: flex;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+.txt{
+    width: 400px;
+    height: auto;
+}
+.txt p {
+    width: 400px;
+    height: auto;
+}
+ 
