@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
+*{
+    margin: 0 auto;
+    width: 990px;
+}
 h1 {
     font-family: 'Lato', sans-serif;
     font-size: 40px;
@@ -17,7 +21,7 @@ h2, h3 {
 p {
     font-family: 'Open Sans Condensed', sans-serif;
     color: #333;
-    font-size: 18px;
+    font-size: 16px;
     text-indent: 5%;
     margin-left: 20px;
     width: 90%;
@@ -27,55 +31,84 @@ li {
     color: rgb(7, 7, 78);
 }
 a {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     text-decoration: none;
     color: rgb(7, 7, 78);
     font-weight: 900;
 }
-.logo a {
-    color: #fff;
+h3 a{
+    font-size: 20px;
+
 }
-*{
-    margin: 0;
-    
+.logo a {
+    color: rgb(8, 0, 51);
 }
 .header{
    
     height: 50px;
-    background-color:#000;
+    border-bottom: 1px solid #ccc;
+    ]
     padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .header h2 {
-    color: #fff;
+    color: rgb(8, 0, 51);
     font-size: 20px;
 }
 .menu ul {
     list-style: none;
     display: flex;
+    
 }
 .menu li{
     margin: 0 5px;
+    justify-content: right;
 }
 .menu a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(8, 0, 51);
     font-size: 14px;
     font-weight: 900;
 }
 
-.fotos-home{
+.fotos{
     display: flex;
     width: 90%;
     justify-content: space-around;
     
 }
 
- a img {
-    height: 200px;
-    width: auto;
+.fotos a img {
+    height: 150px;
+    width: 250px;
     justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.fotos-home a img{
+    height: 180px;
+    width: auto;
+    justify-content: space-around;
+}
+.fotos-logo{
+    width: 90%;
+    justify-content: center;
+}
+.fotos-logo a img{
+    height: 80px;
+    width: auto;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+.ref{
+    border-top: 1px solid #CCC;
+    margin: 5px 0 50px 0;
+}
+
+.ref img{
+    border-radius: 5mm;
 }
