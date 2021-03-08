@@ -1,4 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+    margin: 0 auto;
+    width: 990px;
+}
+
+.logo a {
+    color: rgb(8, 0, 51);
+}
+.header{
+   
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    ]
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h2 {
+    color: rgb(8, 0, 51);
+    font-size: 20px;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    
+}
+.menu li{
+    margin: 0 5px;
+    justify-content: right;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(8, 0, 51);
+    font-size: 14px;
+    font-weight: 900;
+}
 
 h1, h2, h3, a{
     font-family: Lato;
@@ -7,6 +44,5 @@ h1, h2, h3, a{
      font-family: open sans condensed;
  }
 div img{
-    width: 800px;
-    height: 100px;
-}
+    height: 250px;
+    width: auto;
