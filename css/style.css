@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
 *{
     margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    margin: 0 auto;
     width: 990px;
 }
 h1 {
@@ -8,9 +13,9 @@ h1 {
     font-size: 40px;
     font-weight: 900;
     color: rgb(27, 27, 66);
-    margin: 50px 0 25px 100px;
+    margin: 100px 0 25px 100px;
 }
-h2, h3 {
+h2, h3, h4 {
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -18,16 +23,25 @@ h2, h3 {
     color: rgb(27, 27, 66);
     margin: 30px 0 25px 100px; 
 }
+h4{
+    font-size: 22px;
+    margin: auto;
+    background-color: rgb(27, 27, 66) ; 
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
 h3{
    margin: 20px 0 15px 80px; 
 }
 p {
     font-family: 'Open Sans Condensed', sans-serif;
     color: #333;
-    font-size: 16px;
-    text-indent: 5%;
-    margin-left: 20px;
-    width: 90%;
+    font-size: 17px;
+    margin: 20px auto;
+    text-align: justify;
+    line-height: 25px;
+    padding: 0px 20px;
 }
 li {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -42,7 +56,6 @@ a {
 }
 h3 a{
     font-size: 20px;
-
 }
 .logo a {
     color: rgb(8, 0, 51);
@@ -54,6 +67,11 @@ h3 a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #aaa;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
 }
 .header h2 {
     color: rgb(8, 0, 51);
@@ -62,7 +80,6 @@ h3 a{
 .menu ul {
     list-style: none;
     display: flex;
-    
 }
 .menu li{
     margin: 0 5px;
@@ -74,14 +91,11 @@ h3 a{
     font-size: 14px;
     font-weight: 900;
 }
-
 .fotos{
     display: flex;
     width: 90%;
     justify-content: space-around;
-    
 }
-
 .fotos a img {
     height: 150px;
     width: 250px;
@@ -97,15 +111,14 @@ h3 a{
 }
 .fotos-logo{
     width: 90%;
+    display: flex;
     justify-content: center;
-    margin-left: 20%;
 }
-
 .fotos-logo a img{
-    height: 60px;
-    width: auto;
+    height: auto;
+    width: 100%;
     margin-top: 10px;
-
+    align-items: center;
 }
 .ref{
     border-top: 1px solid #CCC;
@@ -114,4 +127,36 @@ h3 a{
 
 .ref img{
     border-radius: 5mm;
+}
+.legenda{
+    background-color: #111;
+    color: white;
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 12px;
+}
+.item-foto{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    position: relative;
+}
+.item-foto img{
+    width: 100%;
+    height: 100%;
+}
+.formulario{
+    margin: 10px auto;
+    border: 1px solid #aaa;
+    width: 300px;
+    height: 170px;
+    line-height: 50px;
+}
+
+.linhaum{
+    justify-content: center;
+    display: flex;
+    margin: 20px;    
 }

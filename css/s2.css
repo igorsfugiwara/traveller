@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans+Condensed:wght@300&display=swap');
 *{
     margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    margin: 0 auto;
     width: 990px;
 }
 
+.header{
+    background-color: #aaa;
+    position: fixed;
+    top:0;
+    
+}
 .logo a {
     color: rgb(8, 0, 51);
 }
@@ -45,7 +56,7 @@ h1, h2, h3, a{
      
  }
 div img{
-    margin:40px;
+    margin: 0 40px;
     height: auto;
     width: 400px;
 }
