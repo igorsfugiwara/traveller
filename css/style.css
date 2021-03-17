@@ -6,7 +6,8 @@
 }
 .content{
     margin: 0 auto;
-    width: 990px;
+    width: 70%;
+
 }
 h1 {
     font-family: 'Lato', sans-serif;
@@ -165,4 +166,18 @@ h3 a{
 }
 .std img {
     height: 130px;
+}
+
+.fotos-home__lista-cidade{
+    display: flex;
+    list-style: none;
+}
+
+.landingpage{
+    display:flex;
+
+}
+.leftbar{
+    width: 30%;
+    margin: 100px 0 0 20px;
 }
