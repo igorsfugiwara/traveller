@@ -180,4 +180,10 @@ h3 a{
 .leftbar{
     width: 30%;
     margin: 100px 0 0 20px;
+    position: relative;
+}
+
+.formulario1{
+    position: fixed;
+    top: 100px;
 }
