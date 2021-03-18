@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="../css/s2.css">
 </head>
 <body>
-    <!-- contato --> em construção
+    <!-- Form de Cadastro de pto turisticos -->
+<div class="cadastro__pontos">
+    <h3>Formulário de  Cadastro de Pontos Turisticos</h3>
+    <form action="">
+        <label for="nomePonto">Nome do ponto turístico:</label>
+            <input type="text" id="nomePonto" name="nomePonto" required placeholder="Ex.: Beco do Batman">
+        <label for="localizacao">Localização:</label>
+            <input type="url" id="localizacao" name="localizacao" required placeholder="url do Google Maps">
+        <label for="valor">Valor do ingresso (R$):</label>
+            <input type="number" placeholder="Ex.: 0 para Gratuito ">
+        <label for="foto">Foto:</label>
+            <input type="file" accept="image/png, image/jpeg" required>
+        <label for="atracao">Tipo de atração:</label>
+            <div>
+                <select>
+                    <option value="0">Selecione o tipo de atração</option>
+                    <option value="parque">Ambiental/Parque</option>
+                    <option value="cultura">Cultural</option>
+                    <option value="historia">Histórico</option>
+                    <option value="comida">Gastronômico</option>
+                    <option value="entretenimento">Entretenimento</option>
+                </select>
+            </div>
+        <label for="descricao">Descrição:</label>
+            <textarea name="descricao" id="descricao" cols="90" rows="5" required> Faça um breve release sobre a atração.</textarea>
+        <button>Enviar</button>       
+    </form>
+</div>
 </body>
 </html>
