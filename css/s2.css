@@ -93,3 +93,20 @@ h3{
     height: auto;
 }
  
+.cadastro__pontos{
+    width: 800px;
+    height: auto;
+    border: 1px solid #aaa;
+}
+
+.cadastro__pontos h3{
+    margin: 0;
+    padding: 20px;
+    background-color:rgb(8, 0, 51) ;
+    color: white;
+
+}
+.cadastro__pontos label{
+    display: block;
+    line-height: 30px;
+}
