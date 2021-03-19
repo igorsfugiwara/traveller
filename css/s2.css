@@ -4,10 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* LEFT BAR E CONTENT  */
+.leftbar{
+    width: 25%;
+    position: relative;
+    background-color: #ddd;
+}
 .content{
     margin: 0 auto;
-    width: 990px;
+    width: 75%;
 }
+        /* HEADER  */
 .header{
     height: 50px;
     border-bottom: 1px solid #ccc;
