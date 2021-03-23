@@ -18,7 +18,7 @@ h2, h3, h4 {
     font-weight: 700;
     letter-spacing: 1px;
     color: rgb(27, 27, 66);
-    margin: 30px 0 25px 100px; 
+    margin: 30px 0 25px 0; 
 }
 h4{
     font-size: 22px;
@@ -210,13 +210,17 @@ h3 a{
     position: relative;
     background-color: #ddd;
 }
-.formulario1{
+.formulario1 {
     position: fixed;
     top: 50px;
-    width: 25%;
+    width: 322px;
+    margin: 11px;
+    border: solid 1px #000;
 }
-.formulario2{
+.formulario2 {
     position: fixed;
-    top: 180px;
-    width: 25%;
+    top: 200px;
+    width: 322px;
+    margin: 11px;
+    border: solid 1px #000;
 }
