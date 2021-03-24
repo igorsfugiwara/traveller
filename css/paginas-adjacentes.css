@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
+        /* reset css */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* fontes  */
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(27, 27, 66);
+    margin: 100px 0 25px 20px;
+}
+h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(27, 27, 66);
+    margin: 30px 0 25px 20px; 
+}
+h4{
+    font-size: 22px;
+    margin: auto;
+    background-color: #5A5ADB ; 
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+}
+h3{
+   margin: 20px 0 15px 20px; 
+}
+h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(27, 27, 66);
+    margin: 30px 0 25px 20px;
+}
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #333;
+    font-size: 17px;
+    margin: 0px auto;
+    text-align: justify;
+    line-height: 25px;
+    padding: 20px 20px;
+}
+li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(7, 7, 78);
+}
+a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(7, 7, 78);
+    font-weight: 900;
+}
+div a:hover{
+    text-decoration: underline;
+
+}
+.menu a:hover{
+    text-decoration: none;
+    color: #F2CA27;
+}
+img:hover {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.ref a{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 20px 0 0;
+}
+h3 a{
+    font-size: 30px;
+}
+.logo{
+    margin: 50px;
+}
+.logo a {
+    color: rgb(255, 255, 255);
+}
+.content{
+    margin: 0 0 0 25%;
+    width: 75%;
+}
+        /* HEADER  */
+.header{
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5A5ADB;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 2;
+}
+.header h2 {
+    color: rgb(27, 27, 66);
+    font-size: 20px;
+}
+.menu{
+    margin: 0;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    margin: 0 5px;
+    justify-content: right;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 900;
+}
+.comochegar{
+    display: flex;
+}
+.comochegar p {
+    width: 50%;
+    padding: 0;
+}
+.fotos{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+.fotos a img {
+    height: 150px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.fotos-home a img{
+    height: 180px;
+    width: auto;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.fotos-logo{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.fotos-logo a img{
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+}
+.ref{
+    border-top: 1px solid #CCC;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.ref img{
+    border-radius: 5mm;
+}
+.legenda{
+    background-color: #111;
+    color: white;
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    position: absolute;
+    bottom: 12px;
+}
+.item-foto{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    position: relative;
+}
+.item-foto img{
+    width: 100%;
+    height: 100%;
+}
+.formulario{
+    margin: 10px auto;
+    border: 1px solid #aaa;
+    height: 170px;
+    line-height: 50px;
+    width: 40%;
+}
+.linhaum{
+    justify-content: center;
+    display: flex;
+    margin: 20px;    
+}
+.buscar{
+    background-color: #5A5ADB;
+    color: white;
+    padding: 4px;
+}
+
+.dicas img{
+    height: 300px;
+}
+.padrao img {
+    height: 130px;
+}
+
+.fotos-home__lista-cidade{
+    display: flex;
+    list-style: none;
+}
+
+.landingpage{
+    display:flex;
+
+}
+
+/* LEFT BAR */
+.leftbar{
+    width: 25%;
+    position: fixed;
+    background-color: #ddd;
+    z-index: 1;
+    justify-content: space-around;
+}
+.leftbar__content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.formulario1, .banner, .banner1 {
+    margin: 11px;
+ }
+.banner img{
+    width: 100%;
+}
+.banner1 img{
+    width: 100%;
+}
+ 
+
+/* IMAGEM DO CONTEUDO */
+.hot{
+    background-color: #e1f1ff;
+}
+.hot img{
+    width: 100%;
+    height: 277px;
+    display: flex;
+}
+.txt{
+    background-color: white;
+}
+.txt a{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px 20px 0;
+}
