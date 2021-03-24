@@ -240,6 +240,9 @@ h3 a{
     width: 20%;
     border: solid 1px #000;
 }
+.banner img{
+    width: 100%;
+}
 .formulario2 {
     position: fixed;
     top: 220px;
