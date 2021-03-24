@@ -23,10 +23,11 @@ h2, h3, h4 {
 h4{
     font-size: 22px;
     margin: auto;
-    background-color: rgb(27, 27, 66) ; 
+    background-color: #5A5ADB ; 
     color: #FFF;
     display: flex;
     justify-content: center;
+    line-height: 50px;
 }
 h3{
    margin: 20px 0 15px 20px; 
@@ -53,13 +54,25 @@ a {
 }
 div a:hover{
     text-decoration: underline;
+
 }
+.menu a:hover{
+    text-decoration: none;
+    color: #F2CA27;
+}
+.ref a{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 20px 0 0;
+}
+
+
 
 img:hover {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 h3 a{
-    font-size: 20px;
+    font-size: 30px;
 }
 .logo{
     margin: 50px;
@@ -183,7 +196,7 @@ h3 a{
     margin: 20px;    
 }
 .buscar{
-    background-color: rgb(8, 0, 51);
+    background-color: #5A5ADB;
     color: white;
     padding: 4px;
 }
@@ -210,18 +223,27 @@ h3 a{
     width: 25%;
     position: relative;
     background-color: #ddd;
-    display: flex;
+   
     justify-content: space-around;
 }
 .formulario1 {
     position: fixed;
     top: 50px;
     margin: 11px;
+    width: 20%;
+    border: solid 1px #000;
+}
+.banner{
+    position: fixed;
+    top: 220px;
+    margin: 11px;
+    width: 20%;
     border: solid 1px #000;
 }
 .formulario2 {
     position: fixed;
-    top: 200px;
+    top: 220px;
     margin: 11px;
     border: solid 1px #000;
+
 }
