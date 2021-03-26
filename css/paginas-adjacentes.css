@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
-        /* reset css */
-*{
+
+/* reset css */
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
-    /* fontes  */
+
+/* fontes  */
 h1 {
     font-family: 'Lato', sans-serif;
     font-size: 40px;
@@ -13,27 +15,33 @@ h1 {
     color: rgb(27, 27, 66);
     margin: 100px 0 25px 20px;
 }
-h2, h3, h4 {
+
+h2,
+h3,
+h4 {
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
     color: rgb(27, 27, 66);
-    margin: 30px 0 25px 20px; 
+    margin: 30px 0 25px 20px;
 }
-h4{
+
+h4 {
     font-size: 22px;
     margin: auto;
-    background-color: #5A5ADB ; 
+    background-color: #5A5ADB;
     color: #FFF;
     display: flex;
     justify-content: center;
     line-height: 50px;
 }
-h3{
-   margin: 20px 0 15px 20px; 
+
+h3 {
+    margin: 20px 0 15px 20px;
 }
-h5{
+
+h5 {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -41,6 +49,7 @@ h5{
     color: rgb(27, 27, 66);
     margin: 30px 0 25px 20px;
 }
+
 p {
     font-family: 'Open Sans Condensed', sans-serif;
     color: #333;
@@ -50,10 +59,12 @@ p {
     line-height: 25px;
     padding: 20px 20px;
 }
+
 li {
     font-family: 'Open Sans Condensed', sans-serif;
     color: rgb(7, 7, 78);
 }
+
 a {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -61,37 +72,46 @@ a {
     color: rgb(7, 7, 78);
     font-weight: 900;
 }
-div a:hover{
+
+div a:hover {
     text-decoration: underline;
 
 }
-.menu a:hover{
+
+.menu a:hover {
     text-decoration: none;
     color: #F2CA27;
 }
+
 img:hover {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
-.ref a{
+
+.ref a {
     display: flex;
     justify-content: flex-end;
     margin: 20px 20px 0 0;
 }
-h3 a{
+
+h3 a {
     font-size: 30px;
 }
-.logo{
+
+.logo {
     margin: 50px;
 }
+
 .logo a {
     color: rgb(255, 255, 255);
 }
-.content{
+
+.content {
     margin: 0 0 0 25%;
     width: 75%;
 }
-        /* HEADER  */
-.header{
+
+/* HEADER  */
+.header {
     height: 50px;
     border-bottom: 1px solid #ccc;
     padding: 0 10px;
@@ -100,43 +120,52 @@ h3 a{
     align-items: center;
     background-color: #5A5ADB;
     position: fixed;
-    top:0;
+    top: 0;
     width: 100%;
     z-index: 2;
 }
+
 .header h2 {
     color: rgb(27, 27, 66);
     font-size: 20px;
 }
-.menu{
+
+.menu {
     margin: 0;
 }
+
 .menu ul {
     list-style: none;
     display: flex;
 }
-.menu li{
+
+.menu li {
     margin: 0 5px;
     justify-content: right;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 14px;
     font-weight: 900;
 }
-.comochegar{
+
+.comochegar {
     display: flex;
 }
+
 .comochegar p {
     width: 50%;
     padding: 0;
 }
-.fotos{
+
+.fotos {
     display: flex;
     width: 90%;
     justify-content: space-around;
 }
+
 .fotos a img {
     height: 150px;
     width: 250px;
@@ -144,32 +173,37 @@ h3 a{
     align-items: center;
     margin: 5px;
 }
-.fotos-home a img{
+
+.fotos-home a img {
     height: 180px;
     width: auto;
     justify-content: space-around;
     margin-left: 20px;
 }
-.fotos-logo{
+
+.fotos-logo {
     width: 90%;
     display: flex;
     justify-content: center;
 }
-.fotos-logo a img{
+
+.fotos-logo a img {
     width: 100%;
     margin-top: 10px;
     align-items: center;
 }
-.ref{
+
+.ref {
     border-top: 1px solid #CCC;
     margin-bottom: 30px;
     margin-top: 30px;
 }
 
-.ref img{
+.ref img {
     border-radius: 5mm;
 }
-.legenda{
+
+.legenda {
     background-color: #111;
     color: white;
     width: 100%;
@@ -178,108 +212,393 @@ h3 a{
     position: absolute;
     bottom: 12px;
 }
-.item-foto{
+
+.item-foto {
     display: flex;
     width: 200px;
     flex-direction: column;
     position: relative;
 }
-.item-foto img{
+
+.item-foto img {
     width: 100%;
     height: 100%;
 }
-.formulario{
+
+.formulario {
     margin: 10px auto;
     border: 1px solid #aaa;
     height: 170px;
     line-height: 50px;
     width: 40%;
 }
-.linhaum{
+
+.linhaum {
     justify-content: center;
     display: flex;
-    margin: 20px;    
+    margin: 20px;
 }
-.buscar{
+
+.buscar {
     background-color: #5A5ADB;
     color: white;
     padding: 4px;
 }
 
-.dicas img{
+.dicas img {
     height: 300px;
 }
+
 .padrao img {
     height: 130px;
 }
 
-.fotos-home__lista-cidade{
+.fotos-home__lista-cidade {
     display: flex;
     list-style: none;
 }
 
-.landingpage{
-    display:flex;
+.landingpage {
+    display: flex;
 
 }
 
 /* LEFT BAR */
-.leftbar{
+.leftbar {
     width: 25%;
     position: fixed;
     background-color: #ddd;
     z-index: 1;
     justify-content: space-around;
 }
-.leftbar__content{
+
+.leftbar__content {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
 }
-.formulario1, .banner, .banner1 {
+
+.formulario1,
+.banner,
+.banner1 {
     margin: 11px;
- }
-.banner img{
+}
+
+.banner img {
     width: 100%;
 }
-.banner1 img{
+
+.banner1 img {
     width: 100%;
 }
- 
+
 
 /* IMAGEM DO CONTEUDO */
-.hot{
+.hot {
     background-color: #e1f1ff;
 }
-.hot img{
+
+.hot img {
     width: 100%;
     height: 277px;
     display: flex;
 }
-.txt{
+
+.txt {
     background-color: white;
 }
-.txt a{
+
+.txt a {
     display: flex;
     justify-content: flex-end;
-    margin: 0 20px 20px 0;
+    margin: 20px;
+    border-bottom: 1px solid #c5c5c5;
 }
+
 /* FORM CADASTRO DE PONTO */
-.cadastro__pontos{
+.cadastro__pontos {
     width: 800px;
     height: auto;
     border: 1px solid #aaa;
     margin-top: 50px;
 }
 
-.cadastro__pontos h3{
+.cadastro__pontos h3 {
     margin: 0;
     padding: 20px;
-    background-color:#5A5ADB  ;
+    background-color: #5A5ADB;
     color: white;
 
 }
-.cadastro__pontos label{
+
+.cadastro__pontos label {
     display: block;
     line-height: 30px;
+}
+
+.ondeestou h2 {
+    font-size: 18px;
+}
+
+.list__header {
+    text-decoration: underline;
+    list-style: none;
+}
+
+.list__item {
+    list-style: none;
+}
+
+.list__servicos {
+    display: flex;
+    list-style: none;
+}
+
+/* PARALLAX, VARIOS DELES */
+.parallax__renaissance {
+    /* The image used */
+    background-image: url("../imgs/hoteis/renaissance.jpg");
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__bluetree {
+    background-image: url("../imgs/hoteis/bluetree1.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__goldentulip {
+    background-image: url("../imgs/hoteis/goldentulip.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__independencia {
+    background-image: url("../imgs/parques/independencia.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__ibirapuera {
+    background-image: url("../imgs/parques/ibrapuera.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__buenosaires {
+    background-image: url("../imgs/parques/buenosaires.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__skye {
+    background-image: url("../imgs/skye.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__veloso {
+    background-image: url("../imgs/veloso.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__brahma {
+    background-image: url("../imgs/bar.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__kof {
+    background-image: url("../imgs/kof.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__famiglia {
+    background-image: url("../imgs/famiglia.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__lejazz {
+    background-image: url("../imgs/lejazz.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__ft1 {
+    background-image: url("../imgs/ft1.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__ft2 {
+    background-image: url("../imgs/ft2.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__ft3 {
+    background-image: url("../imgs/ft3.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__unidas {
+    background-image: url("../imgs/unidassite.png");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__movida {
+    background-image: url("../imgs/movidasite.png");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__localiza {
+    background-image: url("../imgs/localizasite.png");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__se {
+    background-image: url("../imgs/catedral.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__9dejulho {
+    background-image: url("../imgs/9dejulho.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__mercadao {
+    background-image: url("../imgs/mercadao.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__cine {
+    background-image: url("../imgs/belas-artes.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__casa {
+    background-image: url("../imgs/casa-das-rosas.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__masp {
+    background-image: url("../imgs/masp2.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__bixiga {
+    background-image: url("../imgs/bixiga.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__benedito {
+    background-image: url("../imgs/benedito2.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__vilamadalena {
+    background-image: url("../imgs/vila.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
