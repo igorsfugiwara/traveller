@@ -73,7 +73,7 @@ a {
     font-weight: 900;
 }
 
-div a:hover {
+figure a:hover {
     text-decoration: underline;
 
 }
