@@ -46,12 +46,188 @@
                         </div>
                     </form>
                 </div>
-                <div class="banner">
+                <!-- <div class="banner">
                     <img src="../imgs/adv1.jpg" alt="">
                 </div>
                 <div class="banner1">
                     <img src="../imgs/adv2.jpg" alt="">
-                </div>
+                </div> -->
+                <section class="pesquisar">
+                    <form action="#">
+                        <div class="linha">
+                            <label for="destino">Destino:</label>
+                            <input type="text" placeholder="Destino ou nome da acomodação" id="destino">
+                        </div>
+                        <div class="linha">
+                            <label for="dataEntrada">Data de Entrada:</label>
+                            <input type="date" id="dataEntrada">
+                        </div>
+                        <div class="linha">
+                            <label for="dataSaida">Data de Saída:</label>
+                            <input type="date" id="dataSaida">
+                        </div>
+                        <label for="adultos">Adultos</label>
+                        <select name="adultos" id="adultos" class="pesquisar__adultos">
+                            <option value="adult1">1 adulto</option>
+                            <option value="adult2">2 adulto</option>
+                            <option value="adult3">3 adulto</option>
+                            <option value="adult4">4 adulto</option>
+                            <option value="adult5">5 adulto</option>
+                            <option value="adult6">6 adulto</option>
+                            <option value="adult7">7 adulto</option>
+                            <option value="adult8">8 adulto</option>
+                            <option value="adult9">9 adulto</option>
+                            <option value="adult10">10 adulto</option>
+                            <option value="adult11">11 adulto</option>
+                            <option value="adult12">12 adulto</option>
+                            <option value="adult13">13 adulto</option>
+                            <option value="adult14">14 adulto</option>
+                            <option value="adult15">15 adulto</option>
+                            <option value="adult16">16 adulto</option>
+                            <option value="adult17">17 adulto</option>
+                            <option value="adult18">18 adulto</option>
+                            <option value="adult19">19 adulto</option>
+                            <option value="adult20">20 adulto</option>
+                        </select>
+                        <select name="criancas" id="criancas" class="pesquisar__criancas">
+                            <option value="crianca1">1 criança</option>
+                            <option value="crianca2">2 crianças</option>
+                            <option value="crianca3">3 crianças</option>
+                            <option value="crianca4">4 crianças</option>
+                            <option value="crianca5">5 crianças</option>
+                            <option value="crianca6">6 crianças</option>
+                            <option value="crianca7">7 crianças</option>
+                            <option value="crianca8">8 crianças</option>
+                            <option value="crianca9">9 crianças</option>
+                            <option value="crianca10">10 crianças</option>
+                            <option value="crianca11">11 crianças</option>
+                            <option value="crianca12">12 crianças</option>
+                            <option value="crianca13">13 crianças</option>
+                            <option value="crianca14">14 crianças</option>
+                            <option value="crianca15">15 crianças</option>
+                            <option value="crianca16">16 crianças</option>
+                            <option value="crianca17">17 crianças</option>
+                            <option value="crianca18">18 crianças</option>
+                            <option value="crianca19">19 crianças</option>
+                            <option value="crianca20">20 crianças</option>
+                        </select>
+                        <select name="quartos" id="quartos" class="pesquisar__quartos">
+                            <option value="quarto1">1 Quarto</option>
+                            <option value="quarto2">2 Quartos</option>
+                            <option value="quarto3">3 Quartos</option>
+                            <option value="quarto4">4 Quartos</option>
+                            <option value="quarto5">5 Quartos</option>
+                            <option value="quarto6">6 Quartos</option>
+                            <option value="quarto7">7 Quartos</option>
+                            <option value="quarto8">8 Quartos</option>
+                            <option value="quarto9">9 Quartos</option>
+                            <option value="quarto10">10 Quartos</option>
+                        </select>
+                        <article class="tipodeviagem">
+                            <div class="trabalho">
+                                <input type="checkbox" id="trabalho">
+                                <label for="trabalho">Estou viajando a trabalho</label>
+                            </div>
+                            <div class="mochilao">
+                                <input type="checkbox" id="mochilao">
+                                <label for="mochilao">Estou planejando um mochilão</label>
+                            </div>
+                            <div class="turismo">
+                                <input type="checkbox" id="trabalho">
+                                <label for="trabalho">Estou viajando a turismo</label>
+                            </div>
+                        </article>
+                    </form>
+                </section>
+                <section >                  
+                    <div class="preco">
+                        <h4>Orçamento por dia:</h4>
+                        <div class="preco__opcoes"></div>
+                        <div class="linha">
+                            <input type="checkbox" name="preco" id="ate200">
+                            <label for="ate200">R$0,00 - R$200,00</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="preco" id="ate400">
+                            <label for="ate400">R$200,00 - R$400,00</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="preco" id="ate600">
+                            <label for="ate600">R$400,00 - R$600,00</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="preco" id="ate800">
+                            <label for="ate800">R$600,00 - R$800,00</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="preco" id="ate1000">
+                            <label for="ate1000">R$800,00 - R$1000,00</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="preco" id="ate1200">
+                            <label for="ate1200">R$100,00 - R$1200,00</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="preco" id="ate1400">
+                            <label for="ate1400">R$1200,00 - R$1400,00</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="preco" id="ate1600">
+                            <label for="ate1600">R$1400,00 - R$1600,00</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="preco" id="ate1800">
+                            <label for="ate1800">R$1600,00 - R$1800,00</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="preco" id="ate2000">
+                            <label for="ate2000">R$1800,00 - R$2000,00</label>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="categoria">
+                        <h4>Categoria</h4>
+                        <div class="linha">
+                            <input type="checkbox" name="categoria" id="2estrelas">
+                            <label for="2estrelas">2 estrelas</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="categoria" id="3eestrelas">
+                            <label for="3eestrelas">3 estrelas</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="categoria" id="4estrelas">
+                            <label for="4estrelas">4 estrelas</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="categoria" id="5estrelas">
+                            <label for="5estrelas">5 estrelas</label>
+                        </div>
+                        <div class="linha">
+                            <input type="checkbox" name="categoria" id="semClassificacao">
+                            <label for="semClassificacao">Sem Classificação</label>
+                        </div>
+                    </div>
+                    <div class="distancia">
+                        <h4>Distância da Avenida Paulista</h4>
+                            <div class="linha">
+                                <input type="checkbox" name="categoria" id="1km">
+                                <label for="1km">Menos de 1 km</label>
+                            </div>
+                            <div class="linha">
+                                <input type="checkbox" name="categoria" id="3km">
+                                <label for="3km">Menos de 3 km</label>
+                            </div>
+                            <div class="linha">
+                                <input type="checkbox" name="categoria" id="5km">
+                                <label for="5km">Menos de 5 km</label>
+                            </div>
+                            <div class="linha">
+                                <input type="checkbox" name="categoria" id="10km">
+                                <label for="10km">menos de 10 km</label>
+                            </div>
+                    </div>
+                </section>
             </div>
         </div>
         <!-- onde se hospedar -->
@@ -73,7 +249,7 @@
 
             <h3>Blue Tree Premium Paulista </h3>
             <div class="hot">
-                <div class="parallax__bluetree">
+                <div class="parallax parallax__bluetree">
 
                 </div>
                 <!-- <img src="../imgs/hoteis/blutree.png" alt=""> -->
@@ -117,7 +293,7 @@
             </div>
             <h3>Renaissance</h3>
             <div class="hot">
-                <div class="parallax__renaissance">
+                <div class="parallax parallax__renaissance">
 
                 </div>
                 <!-- <img src="../imgs/hoteis/renaissance.jpg" alt=""> -->
@@ -167,7 +343,7 @@
             </div>
             <h3>Golden Tulip</h3>
             <div class="hot">
-                <div class="parallax__goldentulip">
+                <div class="parallax parallax__goldentulip">
 
                 </div>
                 <!-- <img src="../imgs/hoteis/renaissance.jpg" alt=""> -->

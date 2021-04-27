@@ -50,7 +50,7 @@ h5 {
     margin: 30px 0 25px 20px;
 }
 
-p {
+p{
     font-family: 'Open Sans Condensed', sans-serif;
     color: #333;
     font-size: 17px;
@@ -58,6 +58,12 @@ p {
     text-align: justify;
     line-height: 25px;
     padding: 20px 20px;
+}
+label, input{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #333;
+    font-size: 0.8em;
+    text-align: justify;
 }
 
 li {
@@ -226,7 +232,6 @@ h3 a {
 }
 
 .formulario {
-    margin: 10px auto;
     border: 1px solid #aaa;
     height: 170px;
     line-height: 50px;
@@ -236,7 +241,7 @@ h3 a {
 .linhaum {
     justify-content: center;
     display: flex;
-    margin: 20px;
+    margin: 0.4em 0;
 }
 
 .buscar {
@@ -265,7 +270,7 @@ h3 a {
 
 /* LEFT BAR */
 .leftbar {
-    width: 25%;
+    width: 24%;
     position: fixed;
     background-color: #ddd;
     z-index: 1;
@@ -278,11 +283,11 @@ h3 a {
     margin-top: 50px;
 }
 
-.formulario1,
 .banner,
 .banner1 {
     margin: 11px;
 }
+
 
 .banner img {
     width: 100%;
@@ -293,6 +298,40 @@ h3 a {
 }
 
 
+.trabalho label,
+.mochilao label,
+.turismo label {
+    font-size: .8em;
+}
+
+.pesquisar input,
+select {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+
+.pesquisar__adultos {
+    display: block;
+    width: 100%;
+}
+
+.pesquisar__criancas, .pesquisar__quartos{
+    width: 48%;
+    font-size:0.8em;
+}
+
+
+/* FILTROS */
+
+.linha{
+    display: block;
+}
+form label{
+    font-size: 0.8em;
+}
+h4, section, .formulario1{
+    width: 100%;
+}
 /* IMAGEM DO CONTEUDO */
 .hot {
     background-color: #e1f1ff;
@@ -355,36 +394,24 @@ h3 a {
 }
 
 /* PARALLAX, VARIOS DELES */
-.parallax__renaissance {
-    /* The image used */
-    background-image: url("../imgs/hoteis/renaissance.jpg");
-
-    /* Set a specific height */
+.parallax{
     min-height: 300px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.parallax__renaissance {
+    /* The image used */
+    background-image: url("../imgs/hoteis/renaissance.jpg");
 }
 
 .parallax__bluetree {
     background-image: url("../imgs/hoteis/bluetree1.jpg");
-    min-height: 300px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .parallax__goldentulip {
     background-image: url("../imgs/hoteis/goldentulip.jpg");
-    min-height: 300px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .parallax__independencia {
